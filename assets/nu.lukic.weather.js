@@ -1,6 +1,6 @@
 function Weather(){
-	this._location ='';
-	this._temperatureUnit ='';
+	this._location ='Copenhagen';
+	this._temperatureUnit ='c';
 };
 
 Weather.prototype.setLocation = function(value){
